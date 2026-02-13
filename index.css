@@ -135,7 +135,7 @@ video {
   top: -3px; left: -3px; right: -3px; bottom: -3px;
   background: linear-gradient(60deg, rgb(193, 33, 179), rgb(73, 115, 165), rgb(187, 18, 131));
   z-index: -1;
-  animation: glowing 5s linear infinite;
+  animation: glowing 6s linear infinite;
   background-size: 400% 400%;
 
 }
