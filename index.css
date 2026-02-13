@@ -1,10 +1,16 @@
 
 body {
-    background: linear-gradient(to right, rgb(192, 247, 255), purple)
+    background: linear-gradient(30deg, rgb(192, 247, 255), purple);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    
 }
 
 video {
-    width: 15%;
+    width: 25%;
     max-width: 500px;
     height: auto;
     display: block;
@@ -17,8 +23,8 @@ video {
 
 
 .box {
-    background: linear-gradient(to left, rgb(192, 243, 255), purple);
-    width: 90%;
+    background: linear-gradient(to left, rgb(192, 243,255), purple);
+    width: 80%; 
     max-width: 500px;
     height: auto;
     margin: 40px auto;
@@ -52,7 +58,7 @@ video {
 }
 
 .six {
-    width: 15%;
+    width: 25%;
     max-width: 500px;
     height: auto;
     flex-wrap: wrap;
